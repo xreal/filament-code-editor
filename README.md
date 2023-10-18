@@ -13,7 +13,7 @@ composer require wiebenieuwenhuis/filament-code-editor
 ## Usage
 
 ```php
-use SebastiaanKloos\FilamentCodeEditor\Components\CodeEditor;
+use Wiebenieuwenhuis\FilamentCodeEditor\Components\CodeEditor;
 
 CodeEditor::make('custom_css'),
 ```
