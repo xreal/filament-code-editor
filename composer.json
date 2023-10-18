@@ -1,24 +1,28 @@
 {
-    "name": "sebastiaankloos/filament-code-editor",
+    "name": "wiebenieuwenhuis/filament-code-editor",
     "description": "Code editor for Filament",
     "keywords": [
-        "SebastiaanKloos",
         "laravel",
         "filament-code-editor"
     ],
-    "homepage": "https://github.com/sebastiaankloos/filament-code-editor",
+    "homepage": "https://github.com/sweebee/filament-code-editor",
     "license": "MIT",
     "authors": [
         {
             "name": "Sebastiaan Kloos",
             "email": "sebastiaankloos@pm.me",
             "role": "Developer"
+        },
+        {
+             "name": "Wiebe Nieuwenhuis",
+            "email": "info@wiebenieuwenhuis.nl",
+            "role": "Developer"
         }
     ],
     "require": {
         "php": "^8.1",
-        "filament/filament": "^2.10|^3.0",
-        "illuminate/contracts": "^9.0|^10.0",
+        "filament/filament": "^3.0",
+        "illuminate/contracts": "^10.0",
         "spatie/laravel-package-tools": "^1.9.2"
     },
     "require-dev": {
