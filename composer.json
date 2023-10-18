@@ -39,13 +39,13 @@
     },
     "autoload": {
         "psr-4": {
-            "SebastiaanKloos\\FilamentCodeEditor\\": "src",
-            "SebastiaanKloos\\FilamentCodeEditor\\Database\\Factories\\": "database/factories"
+            "Wiebenieuwenhuis\\FilamentCodeEditor\\": "src",
+            "Wiebenieuwenhuis\\FilamentCodeEditor\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "SebastiaanKloos\\FilamentCodeEditor\\Tests\\": "tests"
+            "Wiebenieuwenhuis\\FilamentCodeEditor\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -63,7 +63,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "SebastiaanKloos\\FilamentCodeEditor\\FilamentCodeEditorServiceProvider"
+                "Wiebenieuwenhuis\\FilamentCodeEditor\\FilamentCodeEditorServiceProvider"
             ]
         }
     },
