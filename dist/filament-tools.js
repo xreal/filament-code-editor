@@ -21288,6 +21288,7 @@
           this.editor = new EditorView({
             state: EditorState.create({
               extensions: [
+                EditorView.lineWrapping,
                 basicSetup,
                 keymap.of([indentWithTab]),
                 javascript(),
